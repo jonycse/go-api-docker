@@ -1,5 +1,17 @@
 ### Go API with docker example
 
+#### Setup
++ docker-compose
+    + Pull the code
+    + docker-compose up
++ docker
+    + docker build -t go-api-docker .
+    + docker run -p 9000:8080 -it go-api-docker
+    
+#### API URL
++ GET http://localhost:9000/
+
+
 
 #### Some docker commands
 + ``docker build -t go-api-docker .`` build docker container
@@ -9,7 +21,3 @@
 + ``docker rmi -f d584516265a1`` remove a docker container
 + ``docker run -p 9000:8080 -v /home/jony/Developer/jony/go-api-docker/data:/app/data -it go-api-docker`` mount __data__ folder inside project folder (optional)
 + ``docker network prune``  remove all networks not used by at least one container
-
-
-#### API URL
-+ GET http://localhost:9000/

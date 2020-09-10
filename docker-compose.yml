@@ -1,9 +1,9 @@
-version: '3'
+version: "3.7"
+
 services:
-  app:
-    container_name: go-api-docker
+  go-api-docker:
     build: .
     ports:
-      - "9000:8080"
+      - 9000:8080
     volumes:
-      - .:/usr/src/app/
+      - ./:/app
