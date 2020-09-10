@@ -9,7 +9,7 @@
 + docker-compose
     + docker-compose up
 + docker
-    + d``ocker build -t go-api-docker .``
+    + ``docker build -t go-api-docker .``
     + ``docker run -p 9000:8080 -v /home/jony/Developer/jony/go-api-docker/data:/app/data -it go-api-docker``
     
 #### API URL
