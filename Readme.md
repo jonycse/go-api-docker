@@ -1,5 +1,10 @@
 ### Go API with docker example
 
+## Features
++ Run go api inside a docker container
++ watch a directory, check if any file(s) modified
+
+
 #### Setup
 + docker-compose
     + Pull the code
