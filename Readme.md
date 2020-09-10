@@ -7,11 +7,10 @@
 
 #### Setup
 + docker-compose
-    + Pull the code
     + docker-compose up
 + docker
-    + docker build -t go-api-docker .
-    + docker run -p 9000:8080 -it go-api-docker
+    + d``ocker build -t go-api-docker .``
+    + ``docker run -p 9000:8080 -it go-api-docker``
     
 #### API URL
 + GET http://localhost:9000/
